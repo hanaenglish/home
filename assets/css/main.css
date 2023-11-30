@@ -18,6 +18,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
 
 }
 
@@ -171,7 +172,86 @@ html {
 
 /* Slider */
 .slider {
-    padding-top: 1000px;
+    margin-top: 80px;
+    padding-top: 750px;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.slider__content {
+    width: 410px;
+    height: 270px;
+    position: absolute;
+    z-index: 1;
+    top: 146px;
+    left: 230px;
+}
+
+.slider__content-heading {
+    font-size: 3.8rem;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.slider__content-about {
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #fff;
+    margin: 30px 0 0 0;
+}
+
+.slider__content-view-courses {
+    display: inline-block;
+    color: #fff;
+    padding: 14px 20px;
+    background-color: #E74C3C;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-radius: 2px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.container {
+    padding-top: 40px;
+    background-color: #f9f9f9;
+}
+
+.category__heading {
+    font-size: 3.6rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: #231F20;
+}
+
+.category__select {
+    display: inline-flex;
+    border: 1px solid #333;
+    border-radius: 2px;
+    align-items: center;
+    padding: 12px;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+.category i {
+    font-size: 2rem;
+}
+
+.category__select-icon {
+    margin-right: 22px;
+}
+.category__select-level {
+    margin-right: 88px;
+}
+
+.category__select-level-text:first-child {
+    font-size: 1.4rem;
+}
+
+.category__select-level-text:last-child {
+    font-size: 1.6rem;
 }
