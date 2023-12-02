@@ -220,6 +220,10 @@ html {
     background-color: #f9f9f9;
 }
 
+.category {
+    padding-bottom: 10px;
+}
+
 .category__heading {
     font-size: 3.6rem;
     font-weight: 300;
@@ -229,10 +233,10 @@ html {
 
 .category__select {
     display: inline-flex;
-    border: 1px solid #333;
+    border: 1px solid #949494;
     border-radius: 2px;
     align-items: center;
-    padding: 12px;
+    padding: 12px 18px 12px 24px;
     background-color: #fff;
     font-weight: 400;
 }
@@ -254,4 +258,68 @@ html {
 
 .category__select-level-text:last-child {
     font-size: 1.6rem;
+}
+
+/* Product */
+
+.product__list {
+    list-style: none;
+}
+
+.product__item {
+    margin-top: 50px;
+}
+
+.product__heading {
+    font-size: 2.6rem;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.product__content-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.product__content {
+    display: flex;
+}
+
+.product__content-img {
+    width: 140px;
+    border-radius: 4px;
+}
+
+.product__content-disc {
+    margin-left: 16px;
+}
+
+
+.product__content:hover .product__content-disc-heading, 
+.product__content:hover .product__content-disc-lessons,
+.product__content:hover .product__content-disc-level {
+    color: #5774FC;
+}
+
+.product__content-disc-heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #231F20;
+}
+
+.product__content-disc-lessons {
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: 8px 0;
+}
+
+.product__content-disc-lessons i {
+    margin-left: 4px;
+}
+
+.product__content-disc-level {
+    font-size: 1.1rem;
+    color: #4C4B51;
 }

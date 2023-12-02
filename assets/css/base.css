@@ -1,11 +1,12 @@
 .grid {
-    max-width: 1024px;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .grid__row {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -16,6 +17,11 @@
 .grid__column {
     width: 20%;
     padding: 0 5px;
+}
+
+.column-50 {
+    width: 50%;
+    margin-top: 28px;
 }
 
 /* Push github */
