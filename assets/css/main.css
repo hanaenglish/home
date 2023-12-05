@@ -264,6 +264,7 @@ html {
 
 .product__list {
     list-style: none;
+    padding-bottom: 60px;
 }
 
 .product__item {
@@ -322,4 +323,81 @@ html {
 .product__content-disc-level {
     font-size: 1.1rem;
     color: #4C4B51;
+}
+
+/* Sayabout */
+.sayabout {
+    padding-top: 65px;
+    background-color: #ECF0F1;
+    position: relative;
+}
+
+.sayabout-heading {
+    font-size: 2.1rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #182532;
+}
+
+.separate {
+    display: block;
+    border-top: 1px dashed #d0d0d0;
+    width: 34%;
+    margin: 32px auto 50px auto;
+    position: relative;
+}
+
+.separate i {
+    position: absolute;
+    left: 47%;
+    top: -11px;
+    padding: 6px;
+    color: #d8d8d8;
+    background: #ECF0F1;
+}
+
+.sayabout-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sayabout-item:first-child {
+    border-right: 1px dashed #d9d9d9;
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.sayabout-item:nth-child(2) {
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.sayabout-item:nth-child(3) {
+    border-right: 1px dashed #d9d9d9;
+}
+
+
+.sayabout-item-wrap {
+    display: flex;
+    padding-top: 30px;
+}
+
+.sayabout-img {
+    width: 75px;
+    border-radius: 50%;
+    margin: 0 20px 20px 47px;
+}
+
+.sayabout-disc {
+    font-size: 1.4rem;
+    color: #676767;
+    line-height: 2.4rem;
+}
+
+.sayabout-author {
+    display: block;
+    font-size: 1.4rem;
+    margin-left: 47px;
+    color: #27293d;
+    padding-bottom: 40px;
 }

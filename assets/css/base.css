@@ -4,6 +4,7 @@
     margin-right: auto;
 }
 
+
 .grid__row {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +22,6 @@
 
 .column-50 {
     width: 50%;
-    margin-top: 28px;
 }
 
 /* Push github */
