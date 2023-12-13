@@ -24,6 +24,18 @@
     width: 50%;
 }
 
+
+.grid__colum-3 {
+    width: 25%;
+}
+.grid__colum-4 {
+    width: 33.3333%;
+}
+
+.grid__colum-8 {
+    width: 66.6667%;
+}
+
 .mt-30 {
     margin-top: 30px;
 }

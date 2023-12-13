@@ -401,3 +401,99 @@ html {
     color: #27293d;
     padding-bottom: 40px;
 }
+
+
+/* Video */
+.video {
+    padding-bottom: 36px;
+}
+
+.video__trending {
+    font-size: 2.6rem;
+    font-weight: 300;
+    color: #333;
+    padding: 50px 0 0 0;
+    text-transform: capitalize;
+}
+
+
+.video__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.video__item {
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 36px;
+}
+
+.video__item-link {
+    width: 350px;
+    height: 197px;
+    border-radius: 5px;
+
+}
+
+/* Footer */
+.footer {
+    background-color: #ECF0F1;
+    padding-bottom: 200px;
+    padding: 36px 0 0 0;
+    border-top: 4px solid #27AE60;
+}
+
+
+.footer__logo {
+    font-size: 2.6rem;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.footer__content {
+    font-size: 1.6rem;
+}
+
+.footer__disc {
+    font-size: 3.2rem;
+    margin: 36px 0;
+}
+
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__heading {
+    font-size: 1.8rem;
+    margin-bottom: 18px;
+    color: #231F20;
+}
+
+.footer__item-link {
+    display: block;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #231F20;
+    padding: 10px 0;
+
+}
+
+.footer__item-link:hover {
+    color: #425FE6;
+}
+
+.footer__item i {
+    padding-right: 5px;
+}
+
+/* Copyright */
+.copyright {
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 24px 0;
+    background-color: #ECF0F1;
+}
